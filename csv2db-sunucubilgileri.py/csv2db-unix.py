@@ -3,7 +3,7 @@ import datetime
 import sys
 
 #ansible server_inform.yml playbook unun urettigi server_info.txt dosyasinin icini testportal dbye upload eder
-mydb = mysql.connector.connect(host='10.248.72.40', user='ansible', passwd='Support2022', database='testportal')
+mydb = mysql.connector.connect(host='10.248.72.40', user='ansible', passwd='xx', database='testportal')
 mycursor = mydb.cursor()
 rowcount=0
 n = len(sys.argv)
